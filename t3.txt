@@ -1,0 +1,17 @@
+{
+    "date": "2014-08-25T13:22:48.147Z",
+    "time": 1408972973,
+    "temperature": 86.82,
+    "humidity": 0.72,
+    "summary": "Drizzle",
+    "latitude": 20.8696116,
+    "longitude": 76.396147
+}{
+    "date": "2014-08-25T13:22:48.147Z",
+    "time": 1408972982,
+    "temperature": 60,
+    "humidity": 0.9,
+    "summary": "Drizzle",
+    "latitude": 50.819698,
+    "longitude": 3.2103
+}

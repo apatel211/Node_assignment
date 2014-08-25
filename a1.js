@@ -1,14 +1,11 @@
 var fs = require("fs", '\n');
 
-fs.appendFile("t1.txt" , " Hello word "+ '\n',function (Run){
-    if (Run)
-    {
-    console.log('\n',Run);
+fs.appendFile("t1.txt" , " Hello word "+ '\n',function (){
+    // if (Run){
+    // console.log('\n',Run);
+    // }
+    // else{
     
-    }
-    else
-    {
-    console.log("this file is saved");
-    }
-
+    // }
+    console.log("This file is saved");
 });

@@ -1,6 +1,5 @@
 var randomwords = require('random-words');
 var fs = require('fs');
-var count ;
 
 fs.appendFile("t2.txt", randomwords() +'\n', function(isError) {
 	if(isError) {
@@ -13,8 +12,7 @@ fs.appendFile("t2.txt", randomwords() +'\n', function(isError) {
 	fs.readFile("t2.txt",'Utf8', function(isError, data) 
 	{   
 		var file_content_array = data.split('\n');
-		console.log("this number of times :");
-		console.log(file_content_array.length);
+		console.log("this number of times :" + (file_content_array.length - 1));
 	});
 
 }); // Ends appendFile
